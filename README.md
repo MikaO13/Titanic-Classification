@@ -3,6 +3,7 @@ Classification of survival of titanic passengers using <a href = "https://www.ka
 
 Used sklearn, pandas, matplotlib, seaborn
 
+Main code in titanic.ipynb, initial model in titanic_first.ipynb
 
 Light data cleaning to fill missing values
 
