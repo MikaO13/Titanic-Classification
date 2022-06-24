@@ -1,0 +1,93 @@
+LogisticRegression(C=0.05, max_iter=1000, random_state=13) :
+Accuracy Score: 0.8058
+K-Fold Validation Mean Accuracy: 80.1387 %
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.82      0.88      0.85       549
+           1       0.78      0.68      0.73       342
+
+    accuracy                           0.81       891
+   macro avg       0.80      0.78      0.79       891
+weighted avg       0.80      0.81      0.80       891
+
+-----------------------------------
+
+KNeighborsClassifier(metric='euclidean', n_neighbors=7) :
+Accuracy Score: 0.8563
+K-Fold Validation Mean Accuracy: 82.1543 %
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.90      0.89       549
+           1       0.83      0.79      0.81       342
+
+    accuracy                           0.86       891
+   macro avg       0.85      0.84      0.85       891
+weighted avg       0.86      0.86      0.86       891
+
+-----------------------------------
+
+RandomForestClassifier(max_depth=5, max_features=None, min_samples_leaf=2,
+                       n_estimators=1000, random_state=13) :
+Accuracy Score: 0.8541
+K-Fold Validation Mean Accuracy: 83.3928 %
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.94      0.89       549
+           1       0.88      0.72      0.79       342
+
+    accuracy                           0.85       891
+   macro avg       0.86      0.83      0.84       891
+weighted avg       0.86      0.85      0.85       891
+
+-----------------------------------
+
+GradientBoostingClassifier(learning_rate=0.01, max_depth=5, max_features='auto',
+                           min_samples_leaf=2, min_samples_split=5,
+                           n_estimators=1000, random_state=13) :
+Accuracy Score: 0.9102
+K-Fold Validation Mean Accuracy: 83.3909 %
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93       549
+           1       0.93      0.83      0.88       342
+
+    accuracy                           0.91       891
+   macro avg       0.91      0.90      0.90       891
+weighted avg       0.91      0.91      0.91       891
+
+-----------------------------------
+
+SVC(C=1, max_iter=1000, probability=True, random_state=13) :
+Accuracy Score: 0.8260
+K-Fold Validation Mean Accuracy: 82.2692 %
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.89      0.86       549
+           1       0.80      0.72      0.76       342
+
+    accuracy                           0.83       891
+   macro avg       0.82      0.81      0.81       891
+weighted avg       0.82      0.83      0.82       891
+
+-----------------------------------
+
+SGDClassifier(alpha=0.01, loss='log', max_iter=5000, random_state=13) :
+Accuracy Score: 0.8002
+K-Fold Validation Mean Accuracy: 80.1381 %
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.81      0.89      0.85       549
+           1       0.78      0.66      0.72       342
+
+    accuracy                           0.80       891
+   macro avg       0.80      0.77      0.78       891
+weighted avg       0.80      0.80      0.80       891
+
+-----------------------------------
+
